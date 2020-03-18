@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Standard Meta -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Site Properties -->
+      <title></title>
+      <link rel="shortcut icon" href="assets/images/logos/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="assets/images/logos/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="assets/css/bootiful-ui/theme-red.css">  
+      <link rel="stylesheet" href="assets/css/plugins/animate/animate.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+      <script   src="assets/js/jquery/jquery-3.2.1.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Oswald%7CRoboto%7CAnton" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
+
+      <!-- Custom styles for this template -->
+      <link rel="stylesheet" type="text/css" href="assets/css/pages/landing-page.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.1/dist/css/lightbox.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Anton|Barlow+Condensed|Nunito|Nunito+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato|Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Sacramento|Satisfy&display=swap" rel="stylesheet">
+   </head>
+   <body class="theme-purple me-overflow-y-hidden "   > 
+    <div class="position-fixed"  style="width:180px;z-index: 99999;top:50%;right:0;">
+       <div class="d-inline-flex rounded p-8 bg-dark " style="font-size: 2rem;"><a class="text-white" href="javascript;"><i class="fas fa-cog"></i></a></div>
+       <div class="d-flex  bg-white rounded shadow-lg p-20 flex-row align-items-center  flex-wrap" >
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: red;" data-theme="red">
+               
+          </a>
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: blue;" data-theme="blue">
+               
+          </a> 
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: cyan;" data-theme="cyan">
+               
+          </a>
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: pink;" data-theme="pink">
+               
+          </a>
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: purple;" data-theme="purple">
+               
+          </a>
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: green;" data-theme="green">
+               
+          </a>
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: orange;" data-theme="orange">
+               
+          </a>
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: yellow;" data-theme="yellow">
+          <a class="mr-3  mt-3 rounded me-theme-switch " href="javascript:;" style="width: 40px; height:40px;background-color: white;" data-theme="light">
+               
+          </a>
+       </div>
+    </div>
+      <div id="preloader" class="">
+         <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+         </div>
+      </div>  
+      <div class="py-50  d-flex me-hero justify-content-center align-items-center">
+         <div class="me-bg-overlay"></div> 
+        <!--div class="flex-column d-flex justify-content-center align-items-center">  
+             <h1 class="h1 me-hero-text">John Doe</h1>
+             <div class="d-flex my-30" >
+                 <a href="#" class="btn  btn-outline-info    mr-8  mt-10    btn-icon   ">
+                 <i class="fab fa-facebook"></i>
+                 </a>
+                 <a href="#" class="btn  btn-outline-info    mr-8  mt-10    btn-icon   ">
+                 <i class="fab fa-google"></i>
+                 </a>
+                 <a href="#" class="btn  btn-outline-info mr-8   mt-10   btn-icon   ">
+                 <i class="fab fa-linkedin-in"></i>
+                 </a>
+                 <a href="#" class="btn btn-outline-info   mr-8  mt-10    btn-icon ">
+                 <i class="fab fa-youtube"></i>
+                 </a>
+                 <a href="#" class="btn  btn-outline-info   mr-8 mt-10     btn-icon   ">
+                 <i class="fab fa-github"></i>
+                 </a>
+             </div>
+             <div class="my-50  me-hero-typer" id="typewriter"></div>  
+        </div-->
+        <div class="flex-column d-flex justify-content-center align-items-center">  
+             <div class="my-50  me-hero-typer" id="typewriter"></div>  
+        </div>
+
+      </div>
+      
+ 
+         
+       
+      <!--nav class="me-navbar  overflow-hidden">
+         <div class="container-fluid px-0">
+            <div class="nav nav-tabs nav-fill me-nav border-0" id="nav-tab" role="tablist">
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center  active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><img class="mx-5" src="assets/images/icons/basic-icon-packs/svg/user.svg" /> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">About</span></a> 
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><img class=" mx-5" src="assets/images/icons/basic-icon-packs/svg/agenda.svg" /> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Portfolio</span></a>  
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-services-tab" data-toggle="tab" href="#nav-services" role="tab" aria-controls="nav-services" aria-selected="false"><img class=" mx-5" src="assets/images/icons/basic-icon-packs/svg/settings.svg" /> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Services</span></a>
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-testimonials-tab" data-toggle="tab" href="#nav-testimonials" role="tab" aria-controls="nav-testimonials" aria-selected="false"><img class=" mx-5" src="assets/images/icons/basic-icon-packs/svg/cup.svg" /> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Testimonials</span></a>
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><img class=" mx-5" src="assets/images/icons/basic-icon-packs/svg/letter.svg" /> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Contact</span></a> 
+            </div>
+         </div>
+      </nav-->
+      <nav class="me-navbar  overflow-hidden">
+         <div class="container-fluid px-0">
+            <div class="nav nav-tabs nav-fill me-nav border-0" id="nav-tab" role="tablist">
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-user-cog me-fs-2r mx-5"></i> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">About</span></a> 
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-icons  me-fs-2r mx-5"></i>  <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Portfolio</span></a>  
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-services-tab" data-toggle="tab" href="#nav-services" role="tab" aria-controls="nav-services" aria-selected="false"><i class="fas fa-briefcase me-fs-2r mx-5"></i> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Services</span></a>
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-testimonials-tab" data-toggle="tab" href="#nav-testimonials" role="tab" aria-controls="nav-testimonials" aria-selected="false"><i class="fas fa-quote-right me-fs-2r mx-5"></i> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Testimonials</span></a>
+               <a class="nav-item nav-link border-0 rounded-0 d-flex align-items-center justify-content-center " id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="fas fa-phone-alt  me-fs-2r mx-5"></i> <span class="mx-5  d-none d-md-flex d-lg-flex d-xl-flex ">Contact</span></a> 
+            </div>
+         </div>
+      </nav>
+      <div class="tab-content"  id="nav-tabContent">
+         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <section class="py-50 py-md-150 py-lg-150 py-xl-150"  >
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-5 py-20 d-flex justify-content-center align-items-center my-20">
+                        <div class="me-avatar-bg">
+                           <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" class="ml-50 mt-50" />
+                        </div>
+                     </div>
+                     <div class="offset-md-1 col-md-6 my-20 me-about-desc" >
+                        <h1 class="text-dark-purple me-title my-20"><span class="text-dark">About</span> <span class="text-primary" >Me</span></h1>
+                        <p class="my-10">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <p class="my-10">    
+                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="my-30">
+                           <a href="#" class="btn btn-primary  btn-lg btn-icon btn-circle ">
+                           <i class="fab fa-facebook"></i>
+                           </a>
+                           <a href="#" class="btn btn-primary  btn-lg btn-icon btn-circle ">
+                           <i class="fab fa-google"></i>
+                           </a>
+                           <a href="#" class="btn btn-primary  btn-lg btn-icon btn-circle ">
+                           <i class="fab fa-linkedin-in"></i>
+                           </a>
+                           <a href="#" class="btn btn-primary  btn-lg btn-icon btn-circle ">
+                           <i class="fab fa-youtube"></i>
+                           </a>
+                           <a href="#" class="btn btn-primary   btn-lg btn-icon btn-circle ">
+                           <i class="fab fa-github"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- videos section :: start   -->
+            <section class="">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-5 me-videos-left pt-30 py-md-75 py-lg-75 py-xl-75"></div>
+                     <div class="col-md-7 me-videos-right bg-gray-1  pl-md-0 pl-lg-0  py-md-75 py-lg-75 py-xl-75 position-relative"  >
+                         
+                        <h3 class="font-weight-normal pl-md-100 pl-lg-100 mb-30"><span  class="text-dark"  style="z-index: 88;">Subscribe to my</span> <span class="text-primary">Videos</span></h3>
+                        <div class="d-md-flex d-lg-flex" >
+                           <div style="z-index: 88;">
+                              <div class="d-flex me-video-overlay ml-md-n300 ml-lg-n300">
+                                 <div class="py-30 align-self-center">
+                                  <iframe   src="https://www.youtube.com/embed/4pdyU4r7KVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen   class="img-fluid  ml-md-n50 ml-lg-n50"   ></iframe>
+                                    
+                                 </div>
+                                 <div class="d-flex flex-column  justify-content-between  px-10 py-30" style="width:300px;">
+                                    <div>
+                                       <h5 class="mb-10"> Video Title </h5>
+                                       <p>
+                                          Chipotle was alleged to have misclassified apprentice employees as exempt from overtime pay. Plaintiffs said their duties were similar to those of hourly non exempt employees and they should have been paid for overtime hours. A class of current and former apprentice employees was proposed.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- videos section :: end   -->     
+
+            <!-- blog :: start   -->
+            <section class="py-50 py-md-100 py-lg-100 py-xl-100" >
+               <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 my-40">
+                         <h1 class="text-dark-purple me-title my-20"><span class="text-dark">My</span> <span class="text-primary" >Blog</span></h1>
+                         <p class="my-50 lead">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                         </p>
+                      </div>
+                      <div class="col-md-4 col-sm-6">
+                         <div class="card me-blog-card" >
+                            <div class="me-image-container">  
+                             <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80" class="card-img-top me-img-hover-scale" alt="...">
+                           </div>
+                             <div class="card-body">
+                               <h5 class="card-title text-dark my-10">An Example Blog Post</h5>
+                               <h6 class="my-5"><span class="text-gray-900"> Jan 1,  2019</span> By <span class="text-primary">John Doe</span></h6>
+                               <p class="my-10">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                               <a href="#" class="btn btn-primary my-5">Read More</a>
+                             </div>  
+                             
+                               
+                             
+                           </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6">
+                         <div class="card me-blog-card" >
+                             
+                             <div class="card-body">
+                               <h5 class="card-title text-dark mb-10">Grace is eternal</h5>
+                               <h6 class="my-5"><span class="text-gray-900"> Jun 5,  2019</span> By <span class="text-primary">John Doe</span></h6>
+                               <p class="my-10">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                               <a href="#" class="btn btn-primary my-5">Read More</a>
+                             </div> 
+                             <div class="me-image-container">  
+                             <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80" class="card-img-top me-img-hover-scale" alt="...">
+                             </div>
+
+                            
+                               
+                             
+                           </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6 ">
+                         <div class="card me-blog-card" >
+                          <div class="me-image-container">  
+                             <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80" class="card-img-top me-img-hover-scale" alt="...">
+                             </div>
+                             <div class="card-body">
+                               <h5 class="card-title text-dark mb-10">Not another webpage please</h5>
+                               <h6 class="my-5"><span class="text-gray-900"> Jun 15,  2018</span> By <span class="text-primary">John Doe</span></h6>
+                               <p class="my-10">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                               <a href="#" class="btn btn-primary my-5">Read More</a>
+                             </div> 
+                             
+
+                           </div>
+                      </div>
+                  </div>
+               </div>
+            </section>
+            <!-- blog :: end   -->            
+         </div>
+         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="container">
+               <section>
+                  
+                  <div class="row  my-50">
+                     <div class="col-md-6 ">
+                      <div class="me-skills">
+<label >HTML5</label>
+<div class="progress mt-5 mb-10">
+<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<label >HTML5</label>
+<div class="progress mt-5 mb-10">
+<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<label >HTML5</label>
+<div class="progress mt-5 mb-10">
+<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<label >HTML5</label>
+<div class="progress mt-5 mb-10">
+<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<label  >HTML5</label>
+<div class="progress mt-5 mb-10">
+<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+                     </div>
+                  </div>
+
+                  <div class="row my-50">
+                     <div class="col-md-12  p-10 position-relative overflow-hidden">
+                        <!-- filterizr :: begin -->
+                        <div class="my-30 text-center">
+                          <!-- filter controls :: begin  -->
+                          <a  href="javascript:;" class="btn btn-primary btn-lg  my-10 me-js-filter-all" data-filter="all"> All items </a>
+                          <a href="javascript:;"  class="btn btn-primary btn-lg my-10"  data-filter="design"> Design </a>
+                          <a href="javascript:;"  class="btn btn-primary btn-lg my-10"  data-filter="photoshop"> Photoshop </a>
+                          <a href="javascript:;"  class="btn btn-primary btn-lg my-10"  data-filter="website"> Website </a>
+                          <a href="javascript:;"  class="btn btn-primary btn-lg my-10"  data-filter="apps"> Apps </a>
+                          
+                          <!-- filter controls :: end  -->
+                        </div>  
+                          <div class="filter-container position-relative">
+                           <figure class="figure filtr-item p-15" data-category="apps" data-sort="value">
+                            <a href="https://images.unsplash.com/photo-1526958938731-27f1ccdb1817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&h=600&q=80" data-lightbox="image-1" data-title="My caption">
+                             <img src="https://images.unsplash.com/photo-1526958938731-27f1ccdb1817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             </a>
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+
+                           </figure>
+                           <figure class="figure filtr-item p-15" data-category="photoshop, apps" data-sort="value">
+                            <a href="https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&h=600&q=80" data-lightbox="image-1" data-title="My caption">
+                             <img src="https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                           </a>
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                           <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1530545233050-3f0a5d0dd1ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1485011062108-85580cbb0d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1526280524276-51b1c8a46321?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1518665750801-883c188a660d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          
+                         <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1515204230490-1ad00b70ed3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1514517521153-1be72277b32f?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                           <figure class="figure filtr-item p-15" data-category="website, design" data-sort="value">
+                             <img src="https://images.unsplash.com/photo-1467189386127-c4e5e31ee213?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" class="figure-img img-fluid rounded" alt="...">
+                             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                           </figure>
+                          
+                         
+                          
+                        </div>
+                        <!-- filterizr :: end -->
+                     </div>
+                  </div>
+               </section>
+            </div> 
+         </div>
+         <div class="tab-pane fade " id="nav-services" role="tabpanel" aria-labelledby="nav-services-tab" >
+            <div class="container">
+               <section class="pt-50">
+                                   <div class="row d-flex justify-content-around mt-100 mb-50"> 
+                     <div class="col-md-6 my-10 mt-md-n75 mt-lg-n75 mt-xl-n75 px-30">
+                        <div class="card mb-3" style="max-width: 540px;">
+                             <div class="row no-gutters shadow"> 
+                               <div class="col-8  me-services-text text-md-right ">
+                                 <div class="card-body">
+                                   <h5 class="card-title">WEB DESIGN</h5>
+                                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                   <button class="btn  btn-primary"><i class="fas fa-tag"></i> Get A Quote</button>
+                                    
+                                 </div>
+                               </div>
+                               <div class="col-4     me-services-icon  d-flex align-items-center justify-content-center text-white">
+                                    <i class="fas fa-globe me-rotate" style="font-size: 6rem;"></i>
+                               </div>
+                             </div>
+                           </div> 
+                     </div>
+                     <div class="col-md-6 my-10 mt-md-150 mt-lg-150 mt-xl-150 px-30">
+                        <div>   
+                           <div class="card mb-3" style="max-width: 540px;">
+                             <div class="row no-gutters shadow">
+                               <div class="col-4  me-services-icon    d-flex align-items-center justify-content-center text-white">
+                                    <i class="fas fa-pencil-ruler me-rotate" style="font-size: 6rem;"></i>
+                               </div>
+                               <div class="col-8  me-services-text">
+                                 <div class="card-body">
+                                   <h5 class="card-title">UI/UX DESIGN</h5>
+                                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                   <button class="btn  btn-primary"><i class="fas fa-tag"></i> Get A Quote</button>
+                                   
+                                 </div>
+                               </div>
+                             </div>
+                           </div> 
+                        </div>
+                     </div> 
+                     <div class="col-md-6 my-10 mt-md-n75 mt-lg-n75 mt-xl-n75 px-30">
+                        <div>   
+                           <div class="card mb-3" style="max-width: 540px;">
+                             <div class="row no-gutters shadow">
+                               <div class="col-4  me-services-icon    d-flex align-items-center justify-content-center text-white">
+                                    <i class="fas fa-palette me-rotate" style="font-size: 6rem;"></i>
+                               </div>
+                               <div class="col-8  me-services-text">
+                                 <div class="card-body">
+                                   <h5 class="card-title">GRAPHIC DESIGN</h5>
+                                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                   <button class="btn  btn-primary"><i class="fas fa-tag"></i> Get A Quote</button>
+                                   
+                                 </div>
+                               </div>
+                             </div>
+                           </div> 
+                        </div>
+                     </div>
+                     <div class="col-md-6 my-10 mt-md-150 mt-lg-150 mt-xl-150 px-30">
+                        <div class="card mb-3" style="max-width: 540px;">
+                             <div class="row no-gutters shadow"> 
+                               <div class="col-8  me-services-text text-md-right">
+                                 <div class="card-body">
+                                   <h5 class="card-title">WEB DEVELOPMENT</h5>
+                                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content </p>
+                                   <button class="btn  btn-primary"><i class="fas fa-tag"></i> Get A Quote</button>
+                                 </div>
+                               </div>
+                               <div class="col-4  me-services-icon    d-flex align-items-center justify-content-center text-white">
+                                    <i class="fas fa-cogs me-rotate" style="font-size: 6rem;"></i>
+                               </div>
+                             </div>
+                           </div> 
+                     </div>
+                     <div class="col-md-6 my-10 mt-md-n75 mt-lg-n75 mt-xl-n75 px-30">
+                        <div class="card mb-3" style="max-width: 540px;">
+                             <div class="row no-gutters shadow"> 
+                               <div class="col-8  me-services-text text-md-right">
+                                 <div class="card-body">
+                                   <h5 class="card-title">SEO MARKETING</h5>
+                                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                   <button class="btn  btn-primary"><i class="fas fa-tag"></i> Get A Quote</button>
+                                 </div>
+                               </div>
+                               <div class="col-4  me-services-icon    d-flex align-items-center justify-content-center text-white">
+                                    <i class="fas fa-funnel-dollar me-rotate" style="font-size: 6rem;"></i>
+                               </div>
+                             </div>
+                           </div> 
+                     </div>
+                     <div class="col-md-6 my-10 mt-md-150 mt-lg-150 mt-xl-150 px-30">
+                        <div>   
+                           <div class="card mb-3" style="max-width: 540px;">
+                             <div class="row no-gutters shadow">
+                               <div class="col-4  me-services-icon    d-flex align-items-center justify-content-center text-white">
+                                    <i class="fas fa-camera-retro me-rotate" style="font-size: 6rem;"></i>
+                               </div>
+                               <div class="col-8  me-services-text">
+                                 <div class="card-body">
+                                   <h5 class="card-title">PHOTOGRAPHY</h5>
+                                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                   <button class="btn  btn-primary"><i class="fas fa-tag"></i> Get A Quote</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div> 
+                        </div>
+                     </div>
+                  </div> 
+               </section>
+            </div> 
+         </div>
+         <div class="tab-pane fade" id="nav-testimonials" role="tabpanel" aria-labelledby="nav-testimonials-tab">
+            <div class="container">
+              <section>
+                  <div class="row">
+                      <div class="col-md-12">
+                         <div class="bd-example">
+                              <div id="carouselExampleCaptions" class="carousel slide me-testimonial-carousel" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner ">
+                                  <div class="carousel-item active"> 
+                                    <div class="carousel-caption  bg-light d-md-block">
+                                        <div class="row">
+                                          <div class="col-md-5">
+                                              <img src="https://randomuser.me/api/portraits/women/4.jpg" class="img-thumbnail rounded-circle my-20"> 
+                                          </div>
+                                          <div class="col-md-7 ">
+                                            <div class="me-blockquote-icon my-15"><i class="fas fa-quote-right"></i></div>
+                                      <h5>First slide label</h5>
+                                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div> 
+
+                                  <div class="carousel-item"> 
+                                    <div class="carousel-caption  bg-light d-md-block">
+                                        <div class="row">
+                                          <div class="col-md-5">
+                                              <img src="https://randomuser.me/api/portraits/women/4.jpg" class="img-thumbnail rounded-circle my-20"> 
+                                          </div>
+                                          <div class="col-md-7 ">
+                                            <div class="me-blockquote-icon my-15"><i class="fas fa-quote-right"></i></div>
+                                      <h5>First slide label</h5>
+                                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="carousel-item"> 
+                                    <div class="carousel-caption  bg-light d-md-block">
+                                        <div class="row">
+                                          <div class="col-md-5">
+                                              <img src="https://randomuser.me/api/portraits/women/4.jpg" class="img-thumbnail rounded-circle my-20"> 
+                                          </div>
+                                          <div class="col-md-7 ">
+                                            <div class="me-blockquote-icon my-15"><i class="fas fa-quote-right"></i></div>
+                                      <h5>First slide label</h5>
+                                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                  
+                                
+                                <a class="carousel-control-prev me-carousel-controls" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                   <span  ><i class="fas fa-arrow-left"></i></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next me-carousel-controls" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                  <span  ><i class="fas fa-arrow-right"></i></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                            </div>
+                      </div>
+                  </div>
+               </section>
+               <section>
+                  <div class="row  d-flex position-relative py-30 my-50 me-testimonial-row ml-auto " style="
+                        border-top-left-radius: 3rem;
+                        border-bottom-left-radius: 3rem;
+                        ">
+                        
+                        <div class="col-md-4 d-flex justify-content-center align-items-center"> 
+                           
+                           <img src="https://randomuser.me/api/portraits/men/79.jpg" class="img-thumbnail rounded-circle">
+                           <div class="me-blockquote-icon"><i class="fas fa-quote-right"></i></div>
+                        </div>
+                        <div class="col-md-8  d-flex justify-content-center align-items-center px-0 ">
+                           <div class="me-testimonial-card     py-50 px-50" style="
+                              border-top-left-radius: 0rem;
+                              border-bottom-left-radius: 0rem;
+                              ">
+                              <blockquote class="blockquote">
+                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                 
+                              </blockquote>
+                           </div>
+                        </div>
+                  </div>
+                  <div class="row d-flex py-30 my-50 me-testimonial-row mr-auto" style="
+                        
+                        
+                        ">
+                        
+                        <div class="col-md-8 d-flex justify-content-center align-items-center px-0 ">
+                           <div class="me-testimonial-card     py-50 px-50" style="
+                              
+                              
+                              ">
+                              <blockquote class="blockquote">
+                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                 
+                              </blockquote>
+                           </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                           <div class="me-blockquote-icon"><i class="fas fa-quote-right"></i></div>    
+                           <img src="https://randomuser.me/api/portraits/women/4.jpg" class="img-thumbnail rounded-circle">
+                           
+                        </div>
+                        
+                  </div>
+               </section>
+
+               
+            </div> 
+         </div>
+         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <section>
+            <div class="container">
+                <div class="row mt-75 py-30">
+                   <div class="col-md-6 d-flex flex-column align-items-center justify-content-around ">
+                    <div class="me-location-bg   ">
+                       <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&h=300&q=80" class="ml-50 mt-50" />
+                    </div>
+                    <div class="mt-75 ">
+                      <h3>Houston</h3>
+                      <p>Suite 1025 One Greenway Plaza<br>
+                      Houston, TX 77046<br>
+                      Phone: 713.228.2700</p>
+                    </div>
+                   </div>
+
+                   <div class="col-md-6 d-flex flex-column align-items-center justify-content-around ">
+                    <div class="me-location-bg  ">
+                       <img src="https://images.unsplash.com/25/black-white-city.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" class="ml-50 mt-50" />
+                    </div>
+                    <div class="mt-75 ">
+                      <h3>Houston</h3>
+                      <p>Suite 1025 One Greenway Plaza<br>
+                      Houston, TX 77046<br>
+                      Phone: 713.228.2700</p>
+                    </div>
+                   </div>
+                  
+                </div>
+            </div>
+            
+
+          </section>
+          <section>
+            <div class="container"> 
+               <div class="row mx-auto" style="max-width: 780px;">
+                  <div class="col-md-12 px-0">
+                     <div class="my-20 text-center  me-size-4">
+                        <span class="me-rounded-icon "  ><i class="far fa-envelope-open"></i></span>
+                     </div>
+                     <h6 class="my-20  text-uppercase text-dark text-center" id="exampleModalLabel">SUBMIT YOUR DETAILS BELOW TO RECEIVE UPDATES</h6>
+                     <form class="my-20 px-40 sign-up">
+                        <div class="form-group row">
+                           <label for="name1" class="col-sm-3 col-form-label text-dark">Name*</label>
+                           <div class="col-sm-9">
+                              <input type="text" class="form-control" id="name1" name="name" placeholder="e.g John Doe">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label for="email1" class="col-sm-3 col-form-label text-dark">Email Address*</label>
+                           <div class="col-sm-9">
+                              <input type="text" name="email" class="form-control" id="email1" placeholder="e.g example@domain.com">
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <label class="col-sm-3 col-form-label"></label>
+                           <div class="col-sm-6">
+                              <div class="">
+                                 <button type="submit" class="btn btn-dark btn-block btn-lg"><i class="fas fa-envelope-open"></i> Sign Up</button>
+                                 <p class=" text-dark"><small><i class="fas fa-lock"></i> we will not spam, rent, or sell your information</small></p>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div> 
+          </section>
+            <section class="bg-secondary py-md-100  py-lg-100 py-40 ">
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col-md-12">
+                     <span class="text-white h2 font-weight-normal">Email Me: <a class="text-white  h2 font-weight-normal" href="mailto:info@econone.com">info@yourdomain.com</a></span>
+                  </div>
+                </div>
+              </div>
+            </section>
+         </div>
+      </div>
+      <!-- footer :: begin --> 
+
+      <div class="me-footer">
+         <div class="container">
+            <footer class="py-50 text-white d-flex justify-content-between">
+               <div class="p-30">
+                  <p class="text-white">Company Name © 2015</p>
+                  <div class="my-10">
+                     <a  href="#" class="btn btn-gray-9  btn-lg btn-icon btn-circle ">
+                     <i class="fab fa-facebook"></i>
+                     </a>
+                     <a  href="#" class="btn btn-gray-9   btn-lg btn-icon btn-circle ">
+                     <i class="fab fa-google"></i>
+                     </a>
+                     <a  href="#" class="btn btn-gray-9   btn-lg btn-icon btn-circle ">
+                     <i class="fab fa-linkedin-in"></i>
+                     </a>
+                     <a  href="#" class="btn btn-gray-9   btn-lg btn-icon btn-circle ">
+                     <i class="fab fa-youtube"></i>
+                     </a>
+                     <a  href="#" class="btn btn-gray-9   btn-lg btn-icon btn-circle ">
+                     <i class="fab fa-github"></i>
+                     </a>
+                  </div>
+               </div>
+              
+            </footer>
+         </div>
+      </div>
+   
+      <!-- footer :: end -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script   src="assets/js/plugins/validate-js/core.js"></script>
+      <script   src="assets/js/plugins/particles-js/particles.min.js"></script>
+      <script   src="assets/js/plugins/waypoints/jquery.waypoints.min.js"></script>
+      <script   src="assets/js/plugins/smooth-scroll/smooth-scroll.min.js"></script>
+      <script   src="assets/js/plugins/typewriter-js/core.js"></script>
+      <script   src="assets/js/plugins/filterizr/jquery.filterizr.min.js"></script>
+      <script   src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.1/dist/js/lightbox.min.js"></script>
+      <script   src="assets/js/pages/landing-page.js"></script> 
+   </body>
+</html>
+ 
+<script type="text/javascript">
+  $(document).ready(function(){
+          
+          $(".me-hero").css("height" , $(window).height()-$(".me-navbar").height());
+          $(".me-hero").css("min-height" , $(window).height()-$(".me-navbar").height());
+
+        var init_offset_top = $(".me-navbar").offset().top  ;
+        $(window).on("scroll", function() { 
+             if( $(window).scrollTop() >= init_offset_top  && $(".me-navbar").hasClass("me-navbar-fixed")== false  ){
+                $(".me-navbar").addClass("me-navbar-fixed"); 
+                $('a[href="#'+ $(".tab-pane.active").attr("id") +'"]').addClass("active");
+                $(".tab-content").addClass("pt-100");        
+
+             }else if( $(window).scrollTop() <= init_offset_top  &&  $(".me-navbar").hasClass("me-navbar-fixed") == true ){
+                 $(".me-navbar").removeClass("me-navbar-fixed");
+                 $(".me-navbar a.active").removeClass("active");
+                 $(".tab-content").removeClass("pt-100");              
+             }
+        });
+
+
+        $('html, body').animate({scrollTop: 0 },'50');
+
+
+         $(".me-theme-switch").on("click",function(){
+            $("body").attr("class" , "");
+            $("body").addClass("me-overflow-y-hidden  theme-"+$(this).attr("data-theme")); 
+         })
+
+  })
+ 
+
+</script>
+ 
+ <style type="text/css">
+   .me-overflow-y-hidden {
+    overflow-y: hidden;
+   }
+   .me-skills label{
+      margin-bottom : 0;
+   } 
+   
+ </style>
